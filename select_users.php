@@ -1,7 +1,7 @@
 <?php
     include 'connect.php';
 
-    $sql = "SELECT * FROM tbl_iot2";
+    $sql = "SELECT * FROM tbl_users2";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -9,20 +9,20 @@
 ?>
 <table border="1">
     <tr>
-        <th>Zone</th>
-        <th>Temp</th>
-        <th>Humidity</th>
-        <th>User</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Password</th>
     </tr>
 
 <?php
     while($row = $result->fetch_assoc()) { 
 ?>
 <tr>
-    <td><?php echo $row["zone"]; ?></td>
-    <td><?php echo $row["temp"]; ?></td>
-    <td><?php echo $row["hum"]; ?></td>
-    <td><?php echo $row["users"]; ?></td>
+    <td><?php echo $row["Name"]; ?></td>
+    <td><?php echo $row["Email"]; ?></td>
+    <td><?php echo $row["Username"]; ?></td>
+    <td><?php echo $row["Password"]; ?></td>
 </tr>
 
 <?php
