@@ -1,0 +1,48 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: red;
+    font-size: 30px;
+}
+
+.content{
+    color: blue;
+}
+
+#aaa{
+    color: yellow;
+    font-size: 20px;
+}
+
+.btn{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: #682fd3;
+  font-size: 24px;
+}   
+
+.success {
+  background-color: #006600;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.success:hover {
+  background-color: #09090a;
+  font-size: 24px;
+  color: #eb10ca;
+}   
