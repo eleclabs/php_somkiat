@@ -11,7 +11,7 @@
         include 'header.php';
     ?>
 
-    <h2>Login</h2>
+    <h2>Contact Us</h2>
   
     
 </body>

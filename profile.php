@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +15,10 @@
     ?>
 
     <h2> Profile </h2>
-  
-    
+    <?php
+        echo $_SESSION["Username"]; 
+        echo $_SESSION["Email"];
+    ?>
+
 </body>
 </html>

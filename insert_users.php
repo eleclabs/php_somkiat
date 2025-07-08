@@ -6,7 +6,7 @@
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $sql = "INSERT INTO tbl_users2 (Name, Email, Username, Password) 
+    $sql = "INSERT INTO tbl_users (Name, Email, Username, Password) 
             VALUES ('$name', '$email', '$username', '$password')";
 
     if ($conn->query($sql) === TRUE) {

@@ -6,7 +6,7 @@
     $hum = $_POST['hum'];
     $user = $_POST['user'];
 
-    $sql = "INSERT INTO tbl_iot2 (zone, temp, hum, users) VALUES ('$zone', '$temp', '$hum', '$user')";
+    $sql = "INSERT INTO tbl_iot (zone, temp, hum, users) VALUES ('$zone', '$temp', '$hum', '$user')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
