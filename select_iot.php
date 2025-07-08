@@ -21,6 +21,7 @@
 <?php
     while($row = $result->fetch_assoc()) { 
 ?>
+
 <tr>
     <td><?php echo $row["zone"]; ?></td>
     <td><?php echo $row["temp"]; ?></td>

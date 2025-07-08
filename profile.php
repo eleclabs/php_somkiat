@@ -16,8 +16,8 @@
 
     <h2> Profile </h2>
     <?php
-        echo $_SESSION["Username"]; 
-        echo $_SESSION["Email"];
+        echo "Username: $_SESSION[Username] <br/> "; 
+        echo "Email: $_SESSION[Email] <br/> ";
     ?>
 
 </body>
