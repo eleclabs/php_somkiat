@@ -31,7 +31,7 @@ h2{
   font-size: 24px;
 }   
 
-.success {
+.reg{ 
   background-color: #006600;
   color: white;
   padding: 14px 25px;
@@ -41,8 +41,37 @@ h2{
   border-radius: 20px;
 }
 
-.success:hover {
+.reg:hover {
   background-color: #09090a;
   font-size: 24px;
   color: #eb10ca;
 }   
+
+
+/* ทำเมนูแนวนอน */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6a07d5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #cbe905;
+  color: black;
+}
+

@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css" />
+
 <?php
     include 'connect.php';
 
@@ -6,6 +8,7 @@
 
     if ($result->num_rows > 0) {
         // Output data of each row
+    include 'header.php';   
 ?>
 <table border="1">
     <tr>
