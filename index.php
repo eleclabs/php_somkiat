@@ -16,7 +16,12 @@
   ?>
 
    <h2>Welcome to Website</h2>
-   <?php echo"$_SESSION[Email]"; ?>
+   <?php 
+    if(isset($_SESSION['Email'])){
+      echo"$_SESSION[Email]"; 
+    }
+
+    ?>
   
    <p class="content"> ยินดีต้อนรับเข้าสู่เว็บไซต์ </p>
    <div id="aaa">
